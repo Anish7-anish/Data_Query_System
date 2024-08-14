@@ -1,0 +1,47 @@
+.header {
+	background-color: #cc0000;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	margin-bottom: 60px; 
+}
+
+.header-heading {
+    cursor: pointer;
+}
+
+.header-button {
+	margin-left: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+	padding: 10px 20px;
+
+	border-color: black;
+	color: #cc0000;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: white;
+}
+
+.header-button:hover {
+	font-weight: bold;
+	background-color: #cc0000;
+	color: white;
+	border-color: white;
+}
+
+.sign-in {
+	background-color: transparent;
+	color: white;
+}
+
+.sign-up {
+	background-color: #4caf50;
+	color: white;
+}

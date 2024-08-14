@@ -1,0 +1,48 @@
+/* Dashboard.css */
+
+/* Style for the container div */
+.dashboard-container {
+	padding: 80px;
+	background-color: #cc0000;
+	font: Arial;
+	border-radius: 10px;
+}
+
+/* Style for the list */
+.dashboard-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Style for list items */
+.dashboard-item {
+	margin-bottom: 10px;
+}
+
+/* Style for links */
+.dashboard-link {
+	text-decoration: none;
+	color: #333;
+}
+
+/* Hover effect for links */
+.dashboard-link:hover {
+	color: #555;
+}
+
+.dashboard-button {
+	padding: 10px 20px;
+	background-color: #cc0000;
+	border-color: white;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+/* Hover effect for buttons */
+.dashboard-button:hover {
+	font-weight: bold;
+	background-color: white;
+	color: #cc0000;
+}
